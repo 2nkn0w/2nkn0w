@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/2nkn0w/2nkn0w/main/header.png" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/main/header.png" /></p>
 
 <a href="https://www.twitch.tv/your_twitch_username" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitch/status/your_twitch_username?logo=twitchsx&style=for-the-badge&color=0891b2&labelColor=1c1917&label=TWITCH+STATUS" /></a>
@@ -9,7 +9,7 @@ src="https://img.shields.io/twitch/status/your_twitch_username?logo=twitchsx&sty
 
 ### GitHub Stats
 
-<p align="left"><img src="https://raw.githubusercontent.com/{{ .Name }}/{{ .Name }}/main/github-metrics.svg" /></p>
+<p align="left"><img src="https://raw.githubusercontent.com/{{Owner}}/{{Owner}}/main/github-metrics.svg" /></p>
 
 ### 👷 Check out what I'm currently working on
 {{ range recentContributions 5 }}
