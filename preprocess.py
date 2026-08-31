@@ -88,6 +88,7 @@ def main():
     rendered = rendered.replace("{{TWITCH_BADGE}}", twitch_badge)
     rendered = rendered.replace("{{SOCIALS}}", socials_html)
     rendered = rendered.replace("{{REACH_ME}}", reach_me_html)
+    rendered = rendered.replace("{{GITHUB_USERNAME}}", github_user)
 
     with open("README.gtpl", "w", encoding="utf-8") as f:
         f.write(rendered)
