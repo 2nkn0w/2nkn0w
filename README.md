@@ -9,7 +9,7 @@ src="https://img.shields.io/twitch/status/your_twitch_username?logo=twitchsx&sty
 
 ### GitHub Stats
 
-<p align="left"><img src="https://raw.githubusercontent.com///main/github-metrics.svg" /></p>
+<p align="left"><img src="https://raw.githubusercontent.com/2nkn0w/2nkn0w/main/github-metrics.svg" /></p>
 
 ### 👷 Check out what I'm currently working on
 
