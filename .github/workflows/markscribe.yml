@@ -1,0 +1,43 @@
+name: markscribe
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  markscribe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Preprocess template
+        run: |
+          python preprocess.py
+
+      - name: Fetch RSS Feed
+        run: |
+          RSS_URL=$(python -c "import json; print(json.load(open('config.json'))['rss_url'])")
+          curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+            -H "Accept: application/rss+xml, application/xml, text/xml" \
+            "$RSS_URL" > rss-feed.xml || echo "Failed to fetch RSS"
+      
+      - name: Generate README
+        uses: muesli/readme-scribe@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        with:
+          template: 'README.gtpl'
+          writeTo: 'README.md'
+      
+      - name: Commit README
+        uses: stefanzweifel/git-auto-commit-action@v5
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          commit_message: 'markscribe: update README.md'
