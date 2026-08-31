@@ -1,0 +1,27 @@
+{
+  "github_username": "YOUR_GITHUB_USERNAME",
+  "timezone": "Europe/Madrid",
+  "rss_url": "https://yourwebsite.com/index.xml",
+  "header_image": "header.png",
+  "socials": {
+    "twitch": "https://www.twitch.tv/your_twitch_username",
+    "github": "https://www.github.com/your_github_username",
+    "instagram": "http://www.instagram.com/your_instagram_username",
+    "linkedin": "https://www.linkedin.com/in/your_linkedin_username",
+    "rss": "https://yourwebsite.com/rss",
+    "twitter": "https://www.x.com/your_twitter_username",
+    "youtube": "https://www.youtube.com/@your_youtube_username",
+    "threads": "https://www.threads.net/@your_threads_username"
+  },
+  "enabled_socials": [
+    "",
+    ""
+  ],
+  "reach_me": {
+    "Youtube": "https://youtube.com/c/your_youtube_channel",
+    "Twitch": "https://twitch.tv/your_twitch_username",
+    "Twitter": "https://twitter.com/your_twitter_username",
+    "Website": "https://yourwebsite.com",
+    "Web Store": "https://yourstore.com"
+  }
+}
