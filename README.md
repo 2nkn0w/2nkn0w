@@ -13,17 +13,18 @@ src="https://img.shields.io/twitch/status/your_twitch_username?logo=twitchsx&sty
 
 ### 👷 Check out what I'm currently working on
 
+- [2nkn0w/amigo-invisible-privado](https://github.com/2nkn0w/amigo-invisible-privado) - Aplicación web estática PWA para sorteos de Amigo Invisible Privado sin backend, lista para GitHub Pages
 - [2nkn0w/twitchadblock-source](https://github.com/2nkn0w/twitchadblock-source) - A simple automated sistem that retrives and generates a source for LiveContainer to install TwitchAdBlock from @gunnerkidBT fork
 - [2nkn0w/ipalibrary.me-source](https://github.com/2nkn0w/ipalibrary.me-source) - Scraps all ipalibrary.me apps and creates aa valid json for altstore, sidestore or LiveContainer
 - [2nkn0w/2nkn0w.github.io](https://github.com/2nkn0w/2nkn0w.github.io) - Home website
 - [2nkn0w/Test](https://github.com/2nkn0w/Test) - 
 ### 🌱 My latest projects
 
+- [2nkn0w/amigo-invisible-privado](https://github.com/2nkn0w/amigo-invisible-privado) - Aplicación web estática PWA para sorteos de Amigo Invisible Privado sin backend, lista para GitHub Pages
 - [2nkn0w/twitchadblock-source](https://github.com/2nkn0w/twitchadblock-source) - A simple automated sistem that retrives and generates a source for LiveContainer to install TwitchAdBlock from @gunnerkidBT fork
 - [2nkn0w/2nkn0w.github.io](https://github.com/2nkn0w/2nkn0w.github.io) - Home website
 - [2nkn0w/ipalibrary.me-source](https://github.com/2nkn0w/ipalibrary.me-source) - Scraps all ipalibrary.me apps and creates aa valid json for altstore, sidestore or LiveContainer
 - [2nkn0w/Test](https://github.com/2nkn0w/Test) - 
-- [2nkn0w/trends-api](https://github.com/2nkn0w/trends-api) - Script Python en construcción para obtener trends de Google y otras plataformas.  Actualización cada 2 horas prevista, actualmente PyTrends no funciona correctamente.
 ### 🔨 My recent Pull Requests
 
 ### ⭐ Recent Stars
