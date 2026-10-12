@@ -29,7 +29,7 @@ src="https://img.shields.io/twitch/status/your_twitch_username?logo=twitchsx&sty
 
 ### ⭐ Recent Stars
 
-- [storytold/photocraft](https://github.com/storytold/photocraft) - An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust
+- [storytold/photocraft](https://github.com/storytold/photocraft) - PhotoCraft: An open-source, photo editor written by scratch in pure Rust
 - [arutar/FrankenDriver](https://github.com/arutar/FrankenDriver) - FrankenDriver. Frankenstein Driver. Drivers for video cards RTX 30XXm, RTX 40XXm from aliexpress. Driver for RTX 40XXm, RTX 30XXm, RTX 20XX from aliexpress. Driver for graphics cards with a laptop chip.
 - [MagicStuffCL/DnsblockListPS4PS5_Adguardhome](https://github.com/MagicStuffCL/DnsblockListPS4PS5_Adguardhome) - DNS block list for ps4 and ps5, block telemetry and updates from sony
 - [RobThePCGuy/BlueStacks-Root-GUI](https://github.com/RobThePCGuy/BlueStacks-Root-GUI) - A python application to toggle root access and enable read/write (R/W) permissions for your BlueStacks instances.
